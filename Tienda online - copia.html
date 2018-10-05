@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>TIENDA ONLINE!</title>
+	
+	<script src= "script/java.js"> 
+	</script>
+  </head>
+  <body>
+    <h1>
+	<div class="text-center">TIENDA ONLINE</div>
+	</h1>
+		<div class="container">
+			<div class="row" style="border: 2px solid green">
+					<div class="col-3" style="border: 2px solid green">
+						<img src="images.jpg" width="100" height="100">
+						<div class="src-center"></div>
+					</div>
+
+					<div class="col-6" style="border: 2px solid green">
+						<h4>
+						<br><br> 
+						<p align="center">MI TIENDA</p>
+						</h4>
+			    	</div>
+				
+			    	<div class="col-3" style="border: 2px solid green">
+						<center><img src="carrito.jpg" width="100" height="100">
+					<div class="src-center">MI CARRITO</div>
+						</center>
+			    
+			   		</div>
+			</div>
+<!--inicio fila 2-->
+	
+		<div class="row" style="border: 2px solid green">
+			<div class="col-1"></div>
+			<div class="col-4" style="border: 2px solid green">
+				<ul class="list-unstyled">
+					<li class="media">
+					<img class="mr-3" src="pan.png" width="60" height="60" alt="pan">
+					<div class="media-body">
+						<h6 class="mt-0 mb-1">PAN</h6>
+						<input type="number" class="cantidad" id="cantidad pan">
+						<input type="hidden" id="valor pan" value="500">
+					</div>
+					</li>
+					<li class="media my-4">
+								<img class="mr-3" src="leche.png" width="60" height="60" alt="leche">
+								<div class="media-body">
+								  <h6 class="mt-0 mb-1">LECHE</h6>
+								  <input type="number" class="cantidad" id="cantidad leche">
+								  <input type="hidden" id="valor leche" value="2000"> 
+								</div>
+							  </li>
+							  <li class="media">
+								<img class="mr-3" src="huevos.png" width="60" height="60" alt="huevos">
+								<div class="media-body">
+								  <h6 class="mt-0 mb-1">HUEVOS</h6>
+								  <input type="number" class="cantidad" id="cantidad huevos">
+								  <input type="hidden" id="valor huevos" value="300">
+								</div>
+							  </li>
+							</ul>
+					</div>
+					
+					<div class="col-2"></div>
+			<div class="col-4" style="border: 2px solid green">
+				<ul class="list-unstyled">
+					<li class="media">
+					<img class="mr-3" src="jabon.png" width="60" height="60" alt="jabon">
+					<div class="media-body">
+						<h6 class="mt-0 mb-1">JABÓN</h6>
+						<input type="number" class="cantidad" id="cantidad jabon">
+						<input type="hidden" id="valor jabon" value="1500">
+					</div>
+					</li>
+					<li class="media my-4">
+								<img class="mr-3" src="champu.png" width="60" height="60" alt="champu">
+								<div class="media-body">
+								  <h6 class="mt-0 mb-1">CHAMPU</h6>
+								  <input type="number" class="cantidad" id="cantidad champu">
+								  <input type="hidden" id="valor champu" value="2500"> 
+								</div>
+							  </li>
+							  <li class="media">
+								<img class="mr-3" src="crema dental.png" width="60" height="60" alt="crema dental">
+								<div class="media-body">
+								  <h6 class="mt-0 mb-1">CREMA DENTAL</h6>
+								  <input type="number" class="cantidad" id="cantidad crema dental">
+								  <input type="hidden" id="valor crema dental" value="2000">
+								</div>
+							  </li>
+							</ul>
+					</div>
+				
+					<div class="col-1">
+					</div>	
+		</div>
+		 <!--fin fila 2-->
+	
+		<div class="row my-4" style="border: 2px solid green"><!--inicio fila 3-->
+		
+				<div class="col-1"></div>
+				<div class="col-5">
+				
+			<div class="form-group row">
+				<label for="txtsubtotal1" class="col-sm-4 col-form-label">SUBTOTAL</label>
+					<div class="col-sm-8">
+						<input type="number" class="form-control w-50" id="txtsubtotal1" disabled>
+					</div>
+					</div>
+					<div class="form-group row">
+						<label for="txtiva1" class="col-sm-4 col-form-label">IVA</label>
+						<div class="col-sm-8">
+						  <input type="number" class="form-control w-50" id="txtiva1" disabled>
+						  <input type="hidden" id="valiva1" value="19">
+						</div>
+					</div>
+				</div>
+					
+				<div class="col-1"></div>									
+				<div class="col-5">
+				
+					<div class="form-group row">
+						<label for="txtsubtotal2" class="col-sm-4 col-form-label">SUBTOTAL</label>
+						<div class="col-sm-8">
+						  <input type="number" class="form-control w-50" id="txtsubtotal2" disabled>
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="txtiva2" class="col-sm-4 col-form-label">IVA</label>
+						<div class="col-sm-8">
+						  <input type="number" class="form-control w-50" id="txtiva2" disabled>
+						  <input type="hidden" id="valiva2" value="10">
+						</div>
+					</div>
+								
+				</div>
+			</div>
+										
+			<!--fin fila 3-->
+			
+			<div class="row my-4"><!-- inicio fila 4-->
+			
+				<div class="col-2"></div>
+			
+				<div class="col-3 align-self-center text-center">
+			
+				<h4><label>FACTURA</label><h4>
+				<button type="submit" class="btn btn-primary" onclick="calcular();">CALCULAR</button>
+			
+					
+				</div>
+			
+			<div class="col-1"></div>
+			
+			<div class="col-4">
+			
+			
+				<div class="form-group row">
+						<label for="subtotal" class="col-sm-4 col-form-label">SUBTOTAL</label>
+						<div class="col-sm-8">
+							<input type="number" class="form-control" id="subtotal" placeholder="0000" disabled>
+						</div>
+				</div>
+				<div class="form-group row">
+						<label for="ivafinal" class="col-sm-4 col-form-label">IVA</label>
+						<div class="col-sm-8">
+							<input type="number" class="form-control" id="ivafinal" placeholder="0000" disabled>
+						</div>
+				</div>
+				<div class="form-group row">
+						<label for="totalfactura" class="col-sm-4 col-form-label">TOTAL</label>
+						<div class="col-sm-8">
+							<input type="number" class="form-control w-50" id="totalfactura" placeholder="0000" disabled>
+						</div>
+				</div>
+
+			</div>
+			
+			<div class="col-2"></div>
+		
+			
+			</div>
+
+			</div><!--fin fila 4-->
+			
+		<div class="container my-4">
+		
+			<div class="row">
+			
+					<div class="col align-self-center text-center">
+						
+						<h1>MI TIENDA VIRTUAL.COM</h1>
+					
+					</div>
+			
+			
+			</div>
+		
+		</div>
+  </body>
+</html> 
+	
+	
+  
+
+
+
+

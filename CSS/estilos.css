@@ -1,0 +1,21 @@
+.logotienda img{
+	border: 2px dotted blue;
+	border-radius: 60%;
+	}
+	
+	.tienda{
+		font-family: 'Bungee Shade', cursive;
+	}
+	
+	.cantidad{
+	width: 150px;
+	}
+	
+	.carrito
+	{
+	font-size: 35px;
+	}
+	
+	div {
+	border: 1px dotted green;
+	}
